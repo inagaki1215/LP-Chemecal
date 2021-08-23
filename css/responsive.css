@@ -1,6 +1,6 @@
+@charset "UTF-8";
 @media (max-width: 1000px){
 
-    @charset "UTF-8";
 /*共通部分
 指定した文字サイズを正しく反映
 (ブラウザ上で設定したら変わる　大中小)
@@ -23,11 +23,11 @@ body{
 #home{
     background-color: darkgrey;
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    background-image: url(images/background.png) ;
+    /* background-image: url(images/background.png); */
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body{
     width: 230px;
     /* background-color: darkred; */
     position: absolute;
-    left: 0px;
+    left: 0;
     top:20px;
 }
 
@@ -105,7 +105,7 @@ h3{
 /* キャッチフレーズ */
 #theme{
     height: 50px;
-    width: 300x;
+    width: 300px;
     /* background-color:khaki; */
     position:absolute;
     left: 270px;
@@ -174,11 +174,8 @@ h4{
 }
 
 
-
-
 @media (max-width:670px) {
 
-    @charset "UTF-8";
 /*共通部分
 指定した文字サイズを正しく反映
 (ブラウザ上で設定したら変わる　大中小)
@@ -201,11 +198,11 @@ body{
 #home{
     background-color: darkgrey;
     height: 500px;
-    width: 100wh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    background-image: url(images/background.png) ;
+    /* background-image: url(images/background.png) ; */
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -286,7 +283,7 @@ h3{
     width: 400px;
     /* background-color:khaki; */
     position:absolute;
-    left: 0px;
+    left: 0;
     top: 70px;;
 }
 
@@ -334,7 +331,7 @@ h4{
     width: 100px;
     /* background-color:darkturquoise; */
     position:absolute;
-    left: 45px;
+    left: 240px;
     top: 960px;
 }
 
@@ -345,7 +342,7 @@ h4{
     width: 120px;
     /* background-color:forestgreen; */
     position:absolute;
-    left: 240px;
+    left: 45px;
     top: 960px;
 }
 
