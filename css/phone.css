@@ -198,7 +198,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    /* background-image: url(images/background.png) ; */
+    background-image: url(../images/background.png);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body{
 #content{
     width: 80vw;
     height: 80vh;
-    /* background-color: coral; */
+    background-color: coral;
     margin: 0 auto;
     position: relative;    
 }
@@ -218,7 +218,7 @@ body{
 #phone{
     height: 450px;
     width: 250px;
-    /* background-color: darkred; */
+    background-color: darkred;
     position: absolute;
     left: 75px;
     top:300px;
@@ -229,7 +229,7 @@ body{
 #icon{
     height: 70px;
     width: 70px;
-    /* background-color:greenyellow; */
+    background-color:greenyellow;
     position:absolute;
     left: 50px;
     top: 180px;
@@ -242,7 +242,7 @@ body{
 #name{    
     height: 43px;
     width: 220px;
-    /* background-color:rgb(97, 97, 179); */
+    background-color:rgb(97, 97, 179);
     position:absolute;
     left: 150px;
     top: 190px;
@@ -277,7 +277,7 @@ h3{
 #theme{
     height: 60px;
     width: 400px;
-    /* background-color:khaki; */
+    background-color:khaki;
     position:absolute;
     left: 0;
     top: 70px;;
@@ -288,7 +288,7 @@ h3{
 #text{
     height: 110px;
     width: 340px;
-    /* background-color:rgb(159, 122, 185); */
+    background-color:rgb(159, 122, 185);
     position:absolute;
     left: 30px;
     top: 800px;
@@ -306,7 +306,7 @@ h2{
 #recommend{
     height: 30px;
     width: 340px;
-    /* background-color:khaki; */
+    background-color:khaki;
     position:absolute;
     left: 30px;
     top: 920px;
@@ -325,7 +325,7 @@ h4{
 #ios_telop{
     height: 50px;
     width: 100px;
-    /* background-color:darkturquoise; */
+    background-color:darkturquoise;
     position:absolute;
     left: 240px;
     top: 960px;
@@ -336,7 +336,7 @@ h4{
 #android_telop{
     height: 50px;
     width: 120px;
-    /* background-color:forestgreen; */
+    background-color:forestgreen;
     position:absolute;
     left: 45px;
     top: 960px;
